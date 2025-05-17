@@ -49,8 +49,8 @@ const Projects = () => {
       image: "/myportfolio/portfolio.jpg",
       category: 'web',
       technologies: ['React', 'Tailwind CSS', 'TypeScript'],
-      demoLink: 'https://example.com/project4',
-      githubLink: 'https://github.com/yourusername/project4',
+      demoLink: 'https://basant0-0.github.io/myportfolio/',
+      githubLink: 'https://github.com/Basant0-0/myportfolio',
     },
     {
       id: 5,
