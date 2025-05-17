@@ -4,7 +4,7 @@ const About = () => {
   const handleDownloadCV = () => {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // This should match the name of your CV file
+    link.href = "/myportfolio/resume.pdf"; // This should match the name of your CV file
     link.download = 'BasantKumarSah_Resume.pdf'; // This will be the downloaded file name
     document.body.appendChild(link);
     link.click();
@@ -23,7 +23,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-full max-w-md mx-auto aspect-square rounded-lg bg-primary-200 dark:bg-primary-900/30 overflow-hidden">
                 <img 
-                  src='/profile.jpg' 
+                  src="/myportfolio/profile.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
